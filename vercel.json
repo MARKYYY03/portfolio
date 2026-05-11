@@ -1,17 +1,6 @@
 {
   "version": 2,
-  "framework": "laravel",
   "buildCommand": "npm run build && composer install --optimize-autoloader --no-dev",
-  "outputDirectory": "public",
-  "env": {
-    "APP_NAME": "@laravel-app-name",
-    "APP_ENV": "production",
-    "APP_DEBUG": "false",
-    "APP_URL": "@laravel-app-url",
-    "APP_KEY": "@app-key",
-    "DB_CONNECTION": "@db-connection",
-    "SESSION_DRIVER": "cookie"
-  },
   "functions": {
     "api/index.php": {
       "runtime": "php:8.2"
